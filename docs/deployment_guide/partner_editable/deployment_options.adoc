@@ -1,8 +1,6 @@
 // Edit this placeholder text as necessary to describe the deployment options.
 
-This Partner Solution provides the following deployment options:
+This Partner Solution provides the following deployment option:
 
-* https://qs_launch_permalink[Deploy {partner-product-short-name} into a new VPC^]. This option builds a new AWS environment that consists of the VPC, subnets, NAT gateways, security groups, bastion hosts, and other infrastructure components. It then deploys {partner-product-short-name} into this new VPC.
-* https://qs_launch_permalink[Deploy {partner-product-short-name} into an existing VPC^]. This option provisions {partner-product-short-name} in your existing AWS infrastructure.
-
-This Partner Solution provides separate templates for these options. It also lets you configure Classless Inter-Domain Routing (CIDR) blocks, instance types, and {partner-product-short-name} settings.
+* https://fwd.aws/AE7DB?[Deploy the Poly-integrated Amazon Connect CCP to your AWS account without a domain name]. This option creates an S3 bucket to hold the Amazon Connect CCP web site content. Then it creates a CloudFront HTTPS website distribution to serve the Amazon Connect CCP to your users via a generic CloudFront URL (e.g., https://d30xq3p1yhx8d8.cloudfront.net).
+* https://fwd.aws/AE7DB?[Deploy the Poly-integrated Amazon Connect CCP to your AWS account with a domain name that is already added as a hosted zone in your AWS account’s Route 53 service]. This option creates an S3 bucket to hold the Amazon Connect CCP website content. Then it creates a CloudFront HTTPS web site distribution to serve the Amazon Connect CCP to your users via your chosen subdomain name, e.g. https://myamazonconnect.mydomain.com.
