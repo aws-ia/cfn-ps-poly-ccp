@@ -1,0 +1,18 @@
+[
+    {
+        "ParameterKey": "AmazonConnectInstanceAlias",
+        "ParameterValue": "taskcat"
+    },
+    {
+        "ParameterKey": "HostedZone",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "AmazonConnectDomainName",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "QSS3BucketName",
+        "ParameterValue": "$[taskcat_autobucket]"
+    }
+]
