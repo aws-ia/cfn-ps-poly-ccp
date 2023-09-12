@@ -14,4 +14,4 @@ tests:
     regions:
     - us-east-1
     s3_bucket: ''
-    template: templates/poly-ccp.template
+    template: templates/poly-ccp.template.yaml
