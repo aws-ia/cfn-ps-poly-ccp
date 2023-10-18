@@ -67,7 +67,7 @@ Parameters:
     Type: String
     Description: Quick Start S3 Bucket Name
     AllowedPattern: ^[0-9a-zA-Z]+([0-9a-zA-Z-]*[0-9a-zA-Z])*$
-    Default: aws-ia-us-east-1
+    Default: aws-ia
   QSS3KeyPrefix:
     Type: String
     Description: Quick Start S3 Key Prefix
@@ -90,7 +90,7 @@ Conditions:
         - !Ref 'AmazonConnectDomainName'
         - ''
     - !Condition 'HasHostedZoneCondition'
-  UsingDefaultBucket: !Equals [!Ref QSS3BucketName, 'aws-ia-us-east-1']
+  UsingDefaultBucket: !Equals [!Ref QSS3BucketName, 'aws-ia']
 Resources:
   LambdaZipsBucket:
     Type: AWS::S3::Bucket
