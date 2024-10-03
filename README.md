@@ -1,4 +1,8 @@
 # quickstart-poly-ccp
+## Deprecation Notice
+
+:x: This repository is subject to deprecation in Q4 2024. For more details, [please review this announcement](https://github.com/aws-ia/.announcements/issues/1). 
+
 ## Poly-Integrated Amazon Connect CCP on AWS
 
 This Quick Start automatically deploys the Poly-integrated Amazon Connect Contact Control Panel (CCP) in the Amazon Web Services (AWS) Cloud in about 30 minutes. This Quick Start is for users who have already configured an Amazon Connect instance in their AWS account and want to enable support for Poly, which provides headset button call control.
